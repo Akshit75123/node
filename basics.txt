@@ -1,0 +1,14 @@
+
+Command to run javascript file --> node repl
+r - read
+e - execute
+p - prints
+l - loop
+
+CommonJS
+Each file is treated as a module
+Variables, functions, classes,etc. are not accesible to other files by default
+Explicitly tell the module system which parts of your code should be exported via module.exports or exports.
+To import code into a file, use the require() function.
+
+//watch mode command --> node --watch filename
